@@ -1,0 +1,266 @@
+body{
+    background: #0f0f0f;
+}
+
+*{
+    font-family:sans-serif;
+}
+
+.mainContent{
+    /* border:1px solid #fff; */
+    margin:20px 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navsHolder{
+    display: flex;
+    /* border: 1px solid #fff; */
+    justify-content:center  ;
+    padding:0;
+    width:100%;
+    background: #0f0f0f;
+}
+
+.navsHolder > nav{
+    margin:15px;
+    /* border: 1px solid #fff; */
+}
+
+.navsHolder > nav > a{
+    color:#fff;
+    text-decoration:none;
+    transition:.5s;
+}
+
+.navsHolder > nav > a:hover{
+    color:#2fff4b;
+    font-weight: bold;
+    font-size:17px;
+    transition:.5s;
+}
+
+
+.page{
+    /* height:60vh; */
+    display:flex;
+    flex-direction: column;
+    margin-top:200px;
+    margin-bottom:200px;
+    /* border: 1px solid #fff; */
+    width:100%;
+}
+
+
+.page > .pageContent{
+    color:#fff;
+    font-weight: bold;
+    /* border: 1px solid #fff; */
+}
+
+
+.page > .pageContent > .title{
+    font-size:60px;
+    color:#2fff4b;
+}
+
+.page > .pageContent > p {
+    font-weight: normal;
+    text-align: justify;
+}
+
+footer{
+    font-size:14px;
+    text-align:center;
+    color:#777;
+    padding:10px;
+}
+
+@media only screen and (min-width:800px){
+    .mainContent{
+        /* border:1px solid #fff; */
+        margin:20px 50px 20px 50px;
+    }
+    
+    .page{
+        width:80%;
+    }
+    
+    
+    .page > .pageContent{
+        color:#fff;
+        font-weight: bold;
+    }
+    
+    
+    .page > .pageContent > p {
+        letter-spacing:1px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME */
+/* HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME */
+/* HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME */
+
+.page > .pageContent > .sm{
+    font-size:30px;
+    margin-left:5px
+}
+
+.page > .pageContent > .lg{
+    font-size:60px;
+    color:#2fff4b;
+}
+
+/* HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME */
+/* HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME */
+/* HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT  */
+/* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT  */
+/* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT  */
+
+#about > .pageContent > .aboutIcons{
+    text-align: end;
+}
+
+#about > .pageContent > .aboutIcons > img{
+    height:20px;
+}
+
+#about > .pageContent > .tech{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+
+#about > .pageContent > .tech > div{
+    font-weight:normal;
+    margin:8px;
+    /* border:1px solid #3f3f3f; */
+    background:#1f1f1f;
+    padding:10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#about > .pageContent > .tech > div > #alt{
+    color:#bbb;
+}
+
+
+#about > .pageContent > .tech > div > #icons{
+    /* border:1px solid #fff; */
+    text-align: end;
+}
+
+#about > .pageContent > .tech > div > #icons > img{
+    height:40px;
+}
+
+
+@media only screen and (min-width:800px){
+    #about > .pageContent > .tech{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+    }
+}
+
+/* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT  */
+/* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT  */
+/* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT  */
+
+
+
+
+
+
+/* PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS */
+/* PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS */
+/* PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS */
+
+.projList{
+    width:100%;
+    /* border:1px solid #fff; */
+}
+
+.projList > div{
+    /* border:1px solid #ffffff3b; */
+    background: #191919;
+    padding:10px;
+    margin:10px;
+    max-height:40vh;
+    padding:15px;
+    /* max-width:60vh; */
+}
+
+.projList > div > span{
+    font-weight: bold;
+    color: #ffffffd2;
+}
+.projList > div > p{
+    font-weight: normal;
+    color: #ffffffd2;
+    text-align: justify;
+}
+
+
+.projList > div > img{
+    width:100%;
+}
+
+@media only screen and (min-width:800px){
+    .projList{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        width:100%;
+        /* border:1px solid #fff; */
+    }
+}
+
+/* PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS */
+/* PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS */
+/* PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS */
+
+
+
+
+
+
+
+
+
+
