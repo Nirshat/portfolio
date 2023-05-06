@@ -1,0 +1,45 @@
+.projList{
+    width:100%;
+    /* border:1px solid #fff; */
+}
+
+.projList > div{
+    border:1px solid #ffffff8e;
+    border-radius:5px;
+    background: #000625;
+    padding:10px;
+    margin:10px;
+    padding:15px;
+}
+
+.projList > div:hover{
+    background:#000c46;
+    transition:.3s;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 30px 1px rgba(204, 204, 204, 0.3);
+}
+
+.projList > div > span{
+    font-weight: bold;
+    color: #ffffffd2;
+}
+.projList > div > p{
+    font-weight: normal;
+    color: #ffffffd2;
+    font-size:14px;
+    /* text-align: justify; */
+}
+
+
+.projList > div > img{
+    width:100%;
+}
+
+@media only screen and (min-width:800px){
+    .projList{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        width:100%;
+        /* border:1px solid #fff; */
+    }
+}
