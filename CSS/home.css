@@ -1,10 +1,10 @@
 .page > .pageContent > .sm{
-    font-size:30px;
+    font-size:25px;
     margin-left:5px
 }
 
 .page > .pageContent > .lg{
-    font-size:60px;
+    font-size:50px;
     color:#2fff4b;
 }
 

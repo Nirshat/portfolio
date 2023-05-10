@@ -13,15 +13,14 @@
 }
 
 .projList > div:hover{
-    background:#000c46;
+    background:#000414;
     transition:.3s;
     border: 1px solid #fff;
-    box-shadow: 0px 0px 30px 1px rgba(204, 204, 204, 0.3);
 }
 
 .projList > div > span{
     font-weight: bold;
-    color: #ffffffd2;
+    color: #ddd;
 }
 .projList > div > p{
     font-weight: normal;
