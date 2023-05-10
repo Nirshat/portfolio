@@ -8,43 +8,43 @@
 
 
     <!-- ASSETS - Start -    -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/f4106a4f9b.js" crossorigin="anonymous"></script>
     <!-- ASSETS - End -    -->
 
 
     <!-- CSS Links  - Start -     -->
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/home.css">
-    <link rel="stylesheet" href="./CSS/about.css">
+    <link rel="stylesheet" href="./CSS/aboutandskill.css">
     <link rel="stylesheet" href="./CSS/project.css">
     <!-- CSS Links  - End -     -->
 </head>
 <body>
 
     <div class="mainContent">
-        <div class="navsHolder" id="navArea">
+        <!-- <div class="navsHolder" id="navArea">
             <nav><a href="#">Home</a></nav>
             <nav><a href="#about">About</a></nav>
             <nav><a href="#projects">Project</a></nav>
-            <!-- <nav><a href="#contact">Contact</a></nav> -->
-        </div>
+        </div> -->
 
         <div class="page" id="home">
             <div class="pageContent">
                 <span class="sm">Hello, I'm</span><br>
                 <span class="lg">Aron Paul</span>
-    
+                <div id="label">Aspiring Web Developer</div>
+                <br>
                 <p>
-                    An aspiring web developer with no work experience and has an
+                    I am currently have no work experience with an
                     aptitude for creating solutions in a alternative method. Interested in
                     developing websites or web applications and looking forward to use my
-                    skills for the growth of organization and myself. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptates perferendis autem, veritatis tempore nulla ipsum rem dolor ex maxime nemo saepe veniam beatae quam reprehenderit iure quia non voluptatibus.
+                    skills for the growth of organization and myself.
                 </p>
 
 
                 <a target="_blank" href="./supporting files/my resume.pdf">
                 <button>
-                    <span class="text">My Resume</span>
+                    <span class="text">Download CV <i class="fa-solid fa-download"></i></span>
                 </button>
                 </a>
             </div>
@@ -55,9 +55,14 @@
         <div class="page" id="about">
             <div class="pageContent">
                 <span class="title">About</span>
-    
+                <div id="label">Personal</div>
+                <br>
+                <!-- <p>
+                    I actually have no interest in programming because i am more interested in computer hardwares and troubleshooting so i take the BSIT course but my interest suddenly change when the first time i successfully created a simple calculator function for our school activity and realizes how programming works.
+                </p> -->
+
                 <p>
-                    I am a graduating student from the Philippines, currently learning node.js and interested to learn wordpress, laravel, vue.js and react.js to be more knowledgable in front-end development. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quis veritatis omnis quidem fugit, aperiam architecto animi id, laudantium odio repudiandae culpa? Totam cumque explicabo illum deleniti blanditiis hic ducimus.
+                    I actually have no interest in programming back then because i am more interested in computer hardwares and troubleshooting so i take the BSIT course but my interest suddenly change when our lesson in web development started--realizing that i can create a website too. Fast-forward today, I have already more than 3 years of experience in web development.
                 </p>
                 <div class="aboutIcons">
                     <img src="./images/gmail.png" alt="">
@@ -68,63 +73,102 @@
                     <img src="./images/linkedin.png" alt="">
                     <img src="./images/jobstreet.png" alt="">
                 </div>
-                <hr>
-                <h2>Technical Skills / Dev. Tools</h2>
+            </div>
+        </div>
+
+
+
+
+        <div class="page" id="skills">
+            <div class="pageContent">
+                <span class="title">Skills</span>
+                <div id="label">Languages & Tools</div>
+                <br>
                 <div class="tech">
-                    <div>
-                        <div id="alt"><b>HTML:</b><br> 3+ years </div>
-                        <div id="icons"><img src="./images/html.png" alt=""></div>
+
+                    <div class="skillbox">
+                        <div class="skillabel">
+                            Frontend Development
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        
+                        <div class="icons-holder">
+                            <div>
+                                <div id="icons"><img src="./images/html.png" alt=""></div>
+                                <div id="alt"><b>HTML</b></div>
+                            </div>
+                            
+                            <div> 
+                                <div id="icons"><img src="./images/css.png" alt=""></div>
+                                <div id="alt"><b>CSS</b></div>
+                            </div>
+    
+                            <div>
+                                <div id="icons"><img src="./images/js.png" alt=""></div>
+                                <div id="alt"><b>JavaScript</b> </div>
+                            </div>
+    
+                            <div>
+                                <div id="icons"><img src="./images/bootstrap.png" alt=""></div>
+                                <div id="alt"><b>Bootstrap</b></div>
+                            </div>
+                        </div>
                     </div>
+
                     
-                    <div> 
-                        <div id="alt"><b>CSS:</b><br> 3+ years </div>
-                        <div id="icons"><img src="./images/css.png" alt=""></div>
+                    <div class="skillbox">
+                        <div class="skillabel">
+                            Backend Development
+                            <i class="fa-solid fa-code-branch"></i>
+                        </div>
+                        
+                        <div class="icons-holder">
+                            <div>
+                                <div id="icons"><img src="./images/python.png" alt=""></div>
+                                <div id="alt"><b>Python</b></div>
+                            </div>
+                            
+                            <div>
+                                <div id="icons"><img src="./images/php.png" alt=""></div>
+                                <div id="alt"><b>PHP</b></div>
+                            </div>
+        
+                            <div>
+                                <div id="icons"><img src="./images/mysql.png" alt="" sizes="" srcset=""></div>
+                                <div id="alt"><b>MySQL</b></div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div>
-                        <div id="alt"><b>JavaScript:</b><br> 1+ year </div>
-                        <div id="icons"><img src="./images/js.png" alt=""></div>
-                    </div>
 
-                    <div>
-                        <div id="alt"><b>Python:</b><br> 1+ year</div>
-                        <div id="icons"><img src="./images/python.png" alt=""></div>
+                    <div class="skillbox">
+                        <div class="skillabel">
+                            Dev. Tools
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </div>
+                        
+                        <div class="icons-holder">
+                            <div>
+                                <div id="icons"><img src="./images/xampp.png" alt=""></div>
+                                <div id="alt"><b>XAMPP</b></div>
+                            </div>
+        
+                            <div>
+                                <div id="icons"><img src="./images/github1.png" alt=""></div>
+                                <div id="alt"><b>GitHub</b></div>
+                            </div>
+        
+                            <div>
+                                <div id="icons"><img src="./images/canva.jpg" alt=""></div>
+                                <div id="alt"><b>Canva</b></div>
+                            </div>
+                            
+                            <div>
+                                <div id="icons"><img src="./images/vscode.png" alt=""></div>
+                                <div id="alt"><b>VS Code</b></div>
+                            </div>
+                        </div> 
                     </div>
-                    
-                    <div>
-                        <div id="alt"><b>PHP:</b><br> 1+ year</div>
-                        <div id="icons"><img src="./images/php.png" alt=""></div>
-                    </div>
-
-                    <div>
-                        <div id="alt"><b>MySQL:</b><br> 1+ year</div>
-                        <div id="icons"><img src="./images/mysql.png" alt="" sizes="" srcset=""></div>
-                    </div>
-
-                    <div>
-                        <div id="alt"><b>Bootstrap:</b><br> 7 months</div>
-                        <div id="icons"><img src="./images/bootstrap.png" alt=""></div>
-                    </div>
-
-                    <div>
-                        <div id="alt"><b>XAMPP:</b><br> 1+ year</div>
-                        <div id="icons"><img src="./images/xampp.png" alt=""></div>
-                    </div>
-
-                    <div>
-                        <div id="alt"><b>GitHub:</b><br> 2 years</div>
-                        <div id="icons"><img src="./images/github1.png" alt=""></div>
-                    </div>
-
-                    <div>
-                        <div id="alt"><b>Canva:</b><br> 1+ year</div>
-                        <div id="icons"><img src="./images/canva.jpg" alt=""></div>
-                    </div>
-                    
-                    <div>
-                        <div id="alt"><b>VS Code:</b><br> 2+ years</div>
-                        <div id="icons"><img src="./images/vscode.png" alt=""></div>
-                    </div> 
                 </div>
             </div>
         </div>
@@ -134,8 +178,9 @@
         <div class="page" id="projects">
             <div class="pageContent">
                 <span class="title">Projects</span>
-
-                <p>These are the projects i have done...</p>
+                <div id="label">Archived Projects</div>
+                <br>
+                <!-- <p>These are the projects i have done...</p> -->
                 <div class="projList">
                     <div>
                         
@@ -184,19 +229,17 @@
                 </div>
             </div>
         </div>
-        <!-- <a href="#" style="color:#ccc">Back to Top</a> -->
 
-        <div class="navsHolder" id="navArea">
+        <!-- <div class="navsHolder" id="navArea">
             <nav><a href="#">Home</a></nav>
             <nav><a href="#about">About</a></nav>
             <nav><a href="#projects">Project</a></nav>
-            <!-- <nav><a href="#contact">Contact</a></nav> -->
-        </div>
+        </div> -->
     </div>
 
 
     <footer>
-        Copyright © 2023 / apg
+        Design & Built by Aron Paul Gonzales
     </footer>
 </body>
 </html>
