@@ -1,3 +1,4 @@
+
 /* THIS IS THE STYLE FOR SAME DESIGN OF ELEMENTS IN EACH PAGES */
 
 
@@ -13,6 +14,7 @@ body{
     font-family:sans-serif;
     scroll-behavior: smooth;
     transition:.5s;
+    /* border:1px solid #aaa; */
 }
 
 a{
@@ -20,8 +22,9 @@ a{
 }
 
 hr{
-    border: 1px solid #353535;
+    border: 1px solid #001772;
 }
+
 
 .mainContent{
     /* border:1px solid #fff; */
@@ -32,45 +35,38 @@ hr{
     align-items: center;
 }
 
-
-.navsHolder{
-    display: flex;
-    /* border: 1px solid #fff; */
-    justify-content:center  ;
-    padding:0;
-    width:100%;
-    background: #00031d;
+#mylogoholder{
+    width: 100%;
 }
 
-.navsHolder > nav{
-    margin:15px;
-    /* border: 1px solid #fff; */
+#mylogo{
+    letter-spacing:-3px;
+    color:#f0f0f0;
+    font-size:25px;
+    font-weight:bold;
 }
 
-.navsHolder > nav > a{
-    color:#fff;
-    text-decoration:none;
-    transition:.5s;
+#mylogo > *{
+    font-family: monospace;
 }
 
-.navsHolder > nav > a:hover{
+#mylogo > span:nth-child(1){
     color:#2fff4b;
-    font-weight: bold;
-    font-size:17px;
-    /* text-shadow: 4px 0px 13px rgba(65,252,74,0.6); */
-    /* box-shadow: rgba(65, 252, 74, 0.253) 5px 15px 30px 2px; */
-    transition:.5s;
 }
 
-.navsHolder > nav > a:active{
-    color: #2bff00;
+#mylogo > span:nth-child(2){
+    color:#2fff4b;
+}
+
+#mylogo > span:nth-child(3){
+    color:#f0f0f0;
 }
 
 
-.page{
-    /* height:60vh; */
+.page{  
     display:flex;
     flex-direction: column;
+
     margin-top:100px;
     margin-bottom:200px;
     /* border: 1px solid #fff; */
@@ -93,9 +89,40 @@ hr{
     color:#ddd;
 }
 
-.page > .pageContent > p {
+.p {
     line-height:1.8em;
+    margin:0;
+    /* border:1px solid; */
 }
+
+
+#faicons{
+    margin-left:5px;
+}
+
+
+.backtotop{
+    /* border:1px solid #fff; */
+    text-align:center;
+    margin:20px;
+}
+
+#upbtn{
+    color:#2fff4b;
+    padding:10px 15px 10px 15px;
+    border:2px solid #2fff4b;
+    margin:10px;
+    border-radius:100%;
+    background:transparent;
+    font-size:25px;
+    font-weight:bold;
+}
+
+#upbtn:hover{
+    background:#2fff4b;
+    color:#001772;
+}
+
 
 footer{
     font-size:14px;
@@ -106,16 +133,16 @@ footer{
 }
 
 @media only screen and (min-width:800px){
-    .mainContent{
-        /* border:1px solid #fff; */
-        margin:20px 50px 20px 50px;
+
+    #mylogoholder{
+        width:90%;
     }
     
     .page{
-        width:80%;
+        width:90%;
     }    
     
-    .page > .pageContent > p {
+    .p {
         letter-spacing:1px;
     }
 }
