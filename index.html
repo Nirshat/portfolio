@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./images/github1.png">
+    <title>Aron Paul Gonzales</title>
 
 
     <!-- ASSETS - Start -    -->
@@ -15,38 +16,44 @@
     <!-- CSS Links  - Start -     -->
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/home.css">
-    <link rel="stylesheet" href="./CSS/aboutandskill.css">
+    <link rel="stylesheet" href="./CSS/about.css">
+    <link rel="stylesheet" href="./CSS/skills.css">
     <link rel="stylesheet" href="./CSS/project.css">
     <!-- CSS Links  - End -     -->
 </head>
 <body>
+    <span id="top"></span>
 
     <div class="mainContent">
-        <!-- <div class="navsHolder" id="navArea">
-            <nav><a href="#">Home</a></nav>
-            <nav><a href="#about">About</a></nav>
-            <nav><a href="#projects">Project</a></nav>
-        </div> -->
+        <div id="mylogoholder">
+            <span id="mylogo">
+                
+                <span>A</span>
+                <span>P</span>
+                <span>G</span>
+                .
+            </span>
+        </div>
 
         <div class="page" id="home">
             <div class="pageContent">
                 <span class="sm">Hello, I'm</span><br>
                 <span class="lg">Aron Paul</span>
                 <div id="label">Aspiring Web Developer</div>
-                <br>
-                <p>
+                <br><br>
+                <p class="p">
                     I am currently have no work experience with an
                     aptitude for creating solutions in a alternative method. Interested in
                     developing websites or web applications and looking forward to use my
                     skills for the growth of organization and myself.
                 </p>
 
-
-                <a target="_blank" href="./supporting files/my resume.pdf">
-                <button>
-                    <span class="text">Download CV <i class="fa-solid fa-download"></i></span>
+                <a target="_blank" href="mailto:aronpaulgonzales1215@gmail.com"  id="cvlink">
+                <button class="buttons" id="mailbtn">
+                    <span class="text">Contact Me <i id="faicons" class="fa-solid fa-paper-plane"></i></span>
                 </button>
                 </a>
+
             </div>
         </div>
 
@@ -56,22 +63,38 @@
             <div class="pageContent">
                 <span class="title">About</span>
                 <div id="label">Personal</div>
-                <br>
+                <br> <br>
+                <!-- <img src="./supporting files/me1.jpg" alt="me" id="me"> -->
+
                 <!-- <p>
                     I actually have no interest in programming because i am more interested in computer hardwares and troubleshooting so i take the BSIT course but my interest suddenly change when the first time i successfully created a simple calculator function for our school activity and realizes how programming works.
                 </p> -->
 
-                <p>
-                    I actually have no interest in programming back then because i am more interested in computer hardwares and troubleshooting so i take the BSIT course but my interest suddenly change when our lesson in web development started--realizing that i can create a website too. Fast-forward today, I have already more than 3 years of experience in web development.
-                </p>
-                <div class="aboutIcons">
-                    <img src="./images/gmail.png" alt="">
-                    <img src="./images/fb.png" alt="">
-                    <img src="./images/insta.png" alt="">
-                    <img src="./images/twitter.png" alt="">
-                    <img src="./images/github1.png" alt="">
-                    <img src="./images/linkedin.png" alt="">
-                    <img src="./images/jobstreet.png" alt="">
+                <div class="aboutflex">
+                    <img src="./supporting files/me1.jpg" alt="me" id="me">
+                    <div>
+                        <p class="p">
+                            I actually have no interest in programming back then because i am more interested in computer hardwares and troubleshooting so i take the BSIT course but my interest suddenly change when our lesson in web development started--realizing that i could also create a website. Fast-forward today, I have already more than 3 years of experience in web development.
+                        </p>
+                        <a target="_blank" href="./supporting files/my resume.pdf">
+                            <button class="buttons" id="cvbtn">
+                                <span class="text">Download CV <i id="faicons" class="fa-solid fa-circle-arrow-down"></i></span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <br><hr>
+                <div id="aboutfooter">
+                    <h4 style="color:#eee;">Reach Me:</h4>
+                    <div class="aboutIcons">
+                        <img src="./images/gmail.png" alt="">
+                        <img src="./images/fb.png" alt="">
+                        <img src="./images/insta.png" alt="">
+                        <img src="./images/twitter.png" alt="">
+                        <img src="./images/github1.png" alt="">
+                        <img src="./images/linkedin.png" alt="">
+                        <img src="./images/jobstreet.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,8 +105,8 @@
         <div class="page" id="skills">
             <div class="pageContent">
                 <span class="title">Skills</span>
-                <div id="label">Languages & Tools</div>
-                <br>
+                <div id="label">What i can provide?</div>
+                <br><br>
                 <div class="tech">
 
                     <div class="skillbox">
@@ -178,65 +201,41 @@
         <div class="page" id="projects">
             <div class="pageContent">
                 <span class="title">Projects</span>
-                <div id="label">Archived Projects</div>
-                <br>
+                <div id="label">Recent Projects</div>
+                <br><br>
                 <!-- <p>These are the projects i have done...</p> -->
                 <div class="projList">
                     <div>
-                        
-                        <span>Alumni Tracking System <i>(Capstone Project)</i></span>
+                        <span>BCC Alumni Tracking System <i>(Capstone Project)</i></span>
+                        <div id="divprev"><img src="./projImages/bccats1.png" alt="" id="projprev"></div>
                         <p>
-                            - Jan. 2023 - April 2023<br>
-                            - Developed a registration site and portal for alumni that contains announcement of events and allows
-                            the user to update their employment status. <br>
-                            - Developed a web application for administrator that retrieves the information of entries, organizes
-                            data, print reports, and allows the user to post an announcement of events. <br>
-                            <br>
-                            Tech. Used: PHP, MySQL, Bootstrap
+                            Developed a web application for administrator that retrieves the information of entries, organizes data, print reports, and allows the user to post an announcement of events.
+                            <br><br>
+                            Tech. Used: <b>HTML, CSS, JS, PHP, MySQL, Bootstrap</b>
                         </p>
                     </div>
 
                     <div>
-                        <span>Equipment Inventory System</span>
+                        <span> BCC Alumni Website</span>
+                        <div id="divprev"><img src="./projImages/bccaw1.png" alt="" id="projprev"></div>
                         <p>
-                            - Aug. 2022 - Sep. 2022 <br>
-                            - Developed a inventory system that allows the admin to record equipment, users, transaction date and other relevant data.
+                            Developed a portal site for alumni that contains announcement of events and allows the user to update their employment status.
                             <br> <br>
-                            Tech. Used: PHP, MySQL
-                        </p>
-                    </div>
-
-                    <div>
-                        <span>Digital Library</i></span>
-                        <p>
-                            - June 2022 - July 2022 <br>
-                            - Developed a digital library system that allows user to save the URLs of files from google drive including some relevant details.
-                            <br><br>
-                            Tech. Used: PHP, MySQL
-                        </p>
-                    </div>
-
-                    <div>
-                        <span>Student Information Management System <i>(CRUD)</i></span>
-                        <p>
-                            - May 2022 - June 2022 <br>
-                            - Developed a simple recording management system (CRUD) that allows the user to record the
-                            information of students.
-                            <br><br>
-                            Tech. Used: PHP, MySQL
+                            Tech. Used: <b>HTML, CSS, JS, PHP, MySQL</b>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- <div class="navsHolder" id="navArea">
-            <nav><a href="#">Home</a></nav>
-            <nav><a href="#about">About</a></nav>
-            <nav><a href="#projects">Project</a></nav>
-        </div> -->
     </div>
 
+
+    <div class="backtotop">
+        
+        <a href="#top"><button type="button" id="upbtn">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button></a>
+    </div>
 
     <footer>
         Design & Built by Aron Paul Gonzales
