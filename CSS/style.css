@@ -22,7 +22,7 @@ a{
 }
 
 hr{
-    border: 1px solid #001772;
+    border: 1px solid #001052;
 }
 
 
@@ -83,10 +83,14 @@ hr{
 .page > .pageContent > .title{
     font-size:50px;
     color:#2fff4b;
+    text-align: center;
 }
 
 .page > .pageContent > #label{
     color:#ddd;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:2em;
 }
 
 .p {
@@ -108,9 +112,9 @@ hr{
 }
 
 #upbtn{
-    color:#2fff4b;
+    color:#2fff4b4d;
     padding:10px 15px 10px 15px;
-    border:2px solid #2fff4b;
+    border:2px solid #2fff4b4d;
     margin:10px;
     border-radius:100%;
     background:transparent;
@@ -119,8 +123,10 @@ hr{
 }
 
 #upbtn:hover{
-    background:#2fff4b;
+    background:#2fff4b8f;
+    border:2px solid #2fff4b00;
     color:#001772;
+    /* border:none; */
 }
 
 

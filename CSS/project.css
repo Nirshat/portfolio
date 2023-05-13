@@ -12,13 +12,14 @@
     border-radius:5px;
     background: #000625;
     padding:25px;
-    transition:.9s;
+    transition:.7s ease-out 60ms;
+    cursor: pointer;
 }
 
 .projList > div:hover{
     background:#000414;
-    transition:.9s;
-    border: 1px solid #fff;
+    transform:scale(1.1);
+    margin:10px;
 }
 
 .projList > div > span{
@@ -73,7 +74,7 @@
     }
 
     #projprev{
-        height:20em;
+        height:18em;
         width:100%;
     }
 }
