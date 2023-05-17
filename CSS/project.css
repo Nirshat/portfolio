@@ -7,26 +7,27 @@
     justify-content: center;
 }
 
-.projList > div{
+
+#pDiv{
     /* border:1px solid #ffffff8e; */
     border-radius:5px;
     background: #000625;
     padding:25px;
-    transition:.7s ease-out 60ms;
+    transition:.4s ease-out 60ms;
     cursor: pointer;
 }
 
-.projList > div:hover{
+#pDiv:hover{
     background:#000414;
-    transform:scale(1.1);
+    transform:scale(1.05);
     margin:10px;
 }
 
-.projList > div > span{
+#pDiv span{
     font-weight: bold;
     color: #ddd;
 }
-.projList > div > p{
+#pDiv  p{
     font-weight: normal;
     color: #ffffffd2;
     font-size:14px;

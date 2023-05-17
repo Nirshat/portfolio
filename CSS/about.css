@@ -9,14 +9,14 @@
 }
 
 
-.aboutIcons > img{
+.aboutIcons a img{
     height:1.7em;
     transition:0.3s ease-out 60ms;
     cursor: pointer;
     margin-right:5px;
 }
 
-.aboutIcons > img:hover{
+.aboutIcons a img:hover{
     transform:scale(1.2);
 }
 
