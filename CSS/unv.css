@@ -1,0 +1,29 @@
+*{
+    color:#eee;
+    font-family:monospace;
+}
+
+
+
+body{
+    margin:0;
+    padding:0;
+    background:#00063a;
+}
+
+
+.container{
+    display:flex;
+    flex-direction: column;
+    /* border:1px solid #eee; */
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.row1{
+    font-size:20px;
+}
+.row2{
+    font-size:16px;
+}
