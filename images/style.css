@@ -1,0 +1,155 @@
+
+/* THIS IS THE STYLE FOR SAME DESIGN OF ELEMENTS IN EACH PAGES */
+
+
+
+body{
+    /* background: #00031d; */
+    background: #00063a;
+    padding:0;
+    margin:0;
+}
+
+*{
+    font-family:sans-serif;
+    scroll-behavior: smooth;
+    transition:.5s;
+    /* border:1px solid #aaa; */
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    border: 1px solid #001052;
+}
+
+
+.mainContent{
+    /* border:1px solid #fff; */
+    margin:20px 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mylogoholder{
+    width: 100%;
+}
+
+#mylogo{
+    letter-spacing:-3px;
+    color:#f0f0f0;
+    font-size:25px;
+    font-weight:bold;
+}
+
+#mylogo > *{
+    font-family: monospace;
+}
+
+#mylogo > span:nth-child(1){
+    color:#2fff4b;
+}
+
+#mylogo > span:nth-child(2){
+    color:#2fff4b;
+}
+
+#mylogo > span:nth-child(3){
+    color:#f0f0f0;
+}
+
+
+.page{  
+    display:flex;
+    flex-direction: column;
+
+    margin-top:100px;
+    margin-bottom:200px;
+    /* border: 1px solid #fff; */
+    width:100%;
+}
+
+
+.page > .pageContent > *{
+    color:#f2f2f2;
+    /* border: 1px solid #fff; */
+}
+
+
+.page > .pageContent > .title{
+    font-size:50px;
+    color:#2fff4b;
+    text-align: center;
+}
+
+.page > .pageContent > #label{
+    color:#ddd;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:2em;
+}
+
+.p {
+    line-height:1.8em;
+    margin:0;
+    /* border:1px solid; */
+}
+
+
+#faicons{
+    margin-left:5px;
+}
+
+
+.backtotop{
+    /* border:1px solid #fff; */
+    text-align:center;
+    margin:20px;
+}
+
+#upbtn{
+    color:#2fff4b4d;
+    padding:10px 15px 10px 15px;
+    border:2px solid #2fff4b4d;
+    margin:10px;
+    border-radius:100%;
+    background:transparent;
+    font-size:25px;
+    font-weight:bold;
+}
+
+#upbtn:hover{
+    background:#2fff4b8f;
+    border:2px solid #2fff4b00;
+    color:#001772;
+    /* border:none; */
+}
+
+
+footer{
+    font-size:14px;
+    text-align:center;
+    color:#777;
+    padding:35px;
+    background:#000414;
+}
+
+@media only screen and (min-width:800px){
+
+    #mylogoholder{
+        width:90%;
+    }
+    
+    .page{
+        width:90%;
+    }    
+    
+    .p {
+        letter-spacing:1px;
+    }
+}
+
