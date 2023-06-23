@@ -13,13 +13,14 @@
     border-radius:5px;
     background: #000625;
     padding:25px;
+    height:90%;
     transition:.4s ease-out 60ms;
     cursor: pointer;
 }
 
 #pDiv:hover{
     background:#000414;
-    transform:scale(1.05);
+    transform:scale(1);
     margin:10px;
 }
 

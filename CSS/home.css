@@ -13,6 +13,11 @@
     color:#ddd;
 }
 
+.me3{
+    max-height:15rem;
+    display: none;
+}
+
 
 .buttons {
     margin:20px 0px 15px 0px;
@@ -33,4 +38,19 @@
 .buttons:hover {
     background: #1fa105;
     border:3px solid #1fa105;
+}
+
+
+@media only screen and (min-width:800px){
+    .paragraph-pic{
+        display: flex;
+        place-items: center;
+        /* border: 1px solid; */
+    }
+
+    .me3{
+        max-height:15rem;
+        display: block;
+        /* border:1.5px solid #22dd3b; */
+    }
 }
