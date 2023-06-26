@@ -1,6 +1,10 @@
+.page{
+    margin-top:24vh;
+}
+
 .page > .pageContent > .sm{
     font-size:25px;
-    margin-left:5px
+    margin-left:5px;
 }
 
 .page > .pageContent > .lg{
