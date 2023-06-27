@@ -1,5 +1,5 @@
 .page{
-    margin-top:24vh;
+    margin-top:20vh;
 }
 
 .page > .pageContent > .sm{
@@ -45,15 +45,37 @@
 }
 
 
+/* iPad Mini */
+@media only screen and (min-width:700px){
+    .page{
+        margin-top:30vh;
+    }
+}
+
+
+/* iPad Air */
 @media only screen and (min-width:800px){
-    .paragraph-pic{
+    .page{
+        margin-top:30vh;
+    }
+    
+    #home{
         display: flex;
+        flex-direction: row;
         place-items: center;
-        /* border: 1px solid; */
+        grid-gap:1.5rem;
+    }
+}
+
+
+/* Desktop */
+@media only screen and (min-width:1000px){
+    .page{
+        margin-top:20vh;
     }
 
     .me3{
-        max-height:15rem;
+        max-height:18rem;
         display: block;
         /* border:1.5px solid #22dd3b; */
     }
