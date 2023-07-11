@@ -1,0 +1,33 @@
+.currtech{
+    display: flex;
+    grid-gap:3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nt-holder{
+    transition:0.5s ease-out 60ms;
+    cursor:pointer;
+}
+
+.nt-holder:hover{
+    transform: scale(1.2);
+}
+
+.nt-holder #alt{
+    color:#ddd;
+    font-size: 16px;
+    text-align: center;
+}
+
+.nt-holder #icons > img{
+    height:5rem;
+    text-align: center;
+}
+
+
+@media only screen and (min-width:800px){
+    .currtech{
+        grid-gap:5rem;
+    }
+}
