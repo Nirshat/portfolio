@@ -61,10 +61,12 @@
 #alt{
     color:#ddd;
     font-size: 12px;
+    text-align: center;
 }
 
 #icons > img{
     height:40px;
+    text-align: center;
 }
 
 
