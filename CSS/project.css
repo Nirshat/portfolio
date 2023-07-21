@@ -20,8 +20,8 @@
 
 #pDiv:hover{
     background:#000414;
-    transform:scale(.5);
-    margin:10px;
+    transform:scale(1);
+    margin:4px;
 }
 
 #pDiv span{
